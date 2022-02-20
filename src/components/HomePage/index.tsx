@@ -1,7 +1,12 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 type Props = {};
 
-export default function index({}: Props) {
-  return <div>index</div>;
+export default function HomePage({}: Props) {
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
