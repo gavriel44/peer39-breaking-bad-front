@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.home-page {
+  background-image: linear-gradient(
+      rgba(65, 61, 61, 0.527),
+      rgba(255, 255, 255, 0.308)
+    ),
+    url(https://images6.alphacoders.com/321/thumb-1920-321927.jpg);
+}
+
+body {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
