@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import H3Title from "../H3Title";
 import CharacterLink from "./CharacterLink";
 import { useQuery } from "react-query";

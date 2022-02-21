@@ -1,6 +1,5 @@
 import React from "react";
 import EpisodeGallery from "./EpisodeGallery";
-import Navbar from "./Navbar";
 
 type Props = {};
 

@@ -1,7 +1,5 @@
 import React from "react";
 import EpisodePoster from "./EpisodePoster";
-import PosterRow from "./PostersRow";
-import PostersRow from "./PostersRow";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { IEpisode } from "../../types/IEpisode";

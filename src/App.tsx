@@ -1,6 +1,5 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import HomePage from "./components/HomePage";
 import Navbar from "./components/HomePage/Navbar";
 import { QueryClient, QueryClientProvider } from "react-query";
 

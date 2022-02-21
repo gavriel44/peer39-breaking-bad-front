@@ -1,6 +1,4 @@
 import React from "react";
-import { IEpisode } from "../../types/IEpisode";
-import EpisodePoster from "./EpisodePoster";
 
 type Props = {};
 
