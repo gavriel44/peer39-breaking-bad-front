@@ -1,5 +1,6 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import H3Title from "../H3Title";
 import CharacterLink from "./CharacterLink";
 
 type Props = {};
@@ -25,9 +26,7 @@ export default function Episode({}: Props) {
   const { episodeId } = useParams();
   return (
     <div className="p-14">
-      <h3 className="py-10 text-3xl font-bold">
-        Episode Title: {episode.title}
-      </h3>
+      <H3Title>Episode Title: {episode.title}</H3Title>
 
       <p className="text-lg">Air Date: {episode.air_date}</p>
       <div className="pt-14">

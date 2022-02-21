@@ -7,10 +7,7 @@ type Props = {};
 export default function HomePage({}: Props) {
   return (
     <div>
-      <section
-        id="home-content"
-        className="m-auto w-4/5 flex-col align-middle p-16"
-      >
+      <section id="home-content" className="m-auto flex-col align-middle p-16">
         <h1 className="text-6xl text-center font-bold m-16">
           The Breaking Bad Wiki
         </h1>
