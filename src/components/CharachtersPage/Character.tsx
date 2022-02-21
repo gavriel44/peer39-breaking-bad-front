@@ -69,6 +69,7 @@ export default function Character({}: Props) {
         </div>
 
         <img
+          id="character-image"
           src={character.img}
           className=" object-contain h-80  rounded-lg"
           alt="the character"
