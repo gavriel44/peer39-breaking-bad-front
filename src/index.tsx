@@ -4,8 +4,6 @@ import "./index.css";
 import App from "./App";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage";
-// import EpisodesPage from "./components/EpisodesPage/EpisodePage";
-
 import { EpisodesPage, Episode } from "./components/EpisodesPage";
 import { CharactersPage, Character } from "./components/CharachtersPage";
 

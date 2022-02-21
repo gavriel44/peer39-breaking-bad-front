@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.app-bg {
+  background-image: linear-gradient(
+      rgba(7, 5, 32, 0.11278014623818278) 0%,
+      /* rgba(250, 250, 255, 1) 95%, */ rgba(255, 255, 255, 1) 100%
+    ),
+    url(https://images6.alphacoders.com/321/thumb-1920-321927.jpg);
+}
+
+body {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+.poster-row::-webkit-scrollbar {
+  display: none;
+}
+
+.episode-poster {
+  transition: all 0.2s;
+}
+
+.episode-poster:hover {
+  transform: scale(1.09);
+}
+
+.test {
+  padding: 20px;
+}
