@@ -7,7 +7,7 @@ type Props = {
 export default function Navbar({ fixed }: Props) {
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-black mb-3 border-b-2 border-black opacity-75">
+      <nav className=" absolute w-full flex flex-wrap items-center justify-between px-2 py-3 bg-black mb-3 border-b-2 border-black opacity-75">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between ">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a

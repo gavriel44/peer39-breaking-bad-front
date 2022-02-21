@@ -293,6 +293,7 @@ export default function EpisodesRow({ season }: Props) {
               key={episode.episode_id}
               title={episode.title}
               airDate={episode.air_date}
+              episodeId={episode.episode_id}
             />
           );
         })}

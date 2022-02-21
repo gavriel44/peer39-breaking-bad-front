@@ -1,14 +1,15 @@
 import React from "react";
+import ContentContainer from "../ContentContainer";
 import EpisodesRow from "./EpisodesRow";
 
 type Props = {};
 
 export default function EpisodeGallery({}: Props) {
   return (
-    <div className="drop-shadow-2xl bg-white p-1 rounded-xl m-6 mb-14 ">
+    <ContentContainer>
       <EpisodesRow season={1} />
       <EpisodesRow season={2} />
       <EpisodesRow season={3} />
-    </div>
+    </ContentContainer>
   );
 }
