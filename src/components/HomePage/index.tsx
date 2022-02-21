@@ -1,4 +1,5 @@
 import React from "react";
+import EpisodeGallery from "./EpisodeGallery";
 import Navbar from "./Navbar";
 
 type Props = {};
@@ -9,11 +10,12 @@ export default function HomePage({}: Props) {
       <Navbar />
       <section
         id="home-content"
-        className="m-auto border-2 w-4/5 flex-col align-middle"
+        className="m-auto w-4/5 flex-col align-middle p-16"
       >
-        <h1 className="text-6xl text-center font-bold mt-7">
+        <h1 className="text-6xl text-center font-bold mb-16">
           The Breaking Bad Wiki
         </h1>
+        <EpisodeGallery />
       </section>
     </div>
   );
