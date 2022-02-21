@@ -1,5 +1,5 @@
 import React from "react";
-import { Episode } from "../../types/Episode";
+import { IEpisode } from "../../types/IEpisode";
 import EpisodePoster from "./EpisodePoster";
 
 type Props = {};

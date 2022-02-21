@@ -1,4 +1,4 @@
-export interface Episode {
+export interface IEpisode {
   episode_id: number;
   title: string;
   season: string;
